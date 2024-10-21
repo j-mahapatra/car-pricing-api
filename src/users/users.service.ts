@@ -13,6 +13,10 @@ export class UsersService {
   }
 
   findById(id: number) {
+    if (!id) {
+      return null;
+    }
+
     const user = this.repo.findOneBy({ id });
     return user;
   }
