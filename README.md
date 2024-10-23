@@ -1,6 +1,6 @@
 ## Description
 
-A car pricing API
+This is a simple API that allows users to create reports of their cars based on the model, make, price, year, location, mileage, etc.
 
 ## Project setup
 
@@ -33,3 +33,12 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Environment variables
+
+```DB_NAME``` - Name of the database
+
+```COOKIE_KEY``` - Secret key for cookie session
+
+## Tech used:
+- Nest.js, SQLite, TypeORM
