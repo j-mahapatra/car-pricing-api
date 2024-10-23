@@ -21,6 +21,9 @@ export class Report {
   @Column()
   long: number;
 
+  @Column({ default: false })
+  approved: boolean;
+
   @Column()
   lat: number;
 
